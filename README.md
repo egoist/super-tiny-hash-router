@@ -1,6 +1,6 @@
 # super-tiny-hash-router [![NPM version](https://img.shields.io/npm/v/super-tiny-hash-router.svg?style=flat-square)](https://npmjs.com/package/super-tiny-hash-router) [![NPM downloads](https://img.shields.io/npm/dm/super-tiny-hash-router.svg?style=flat-square)](https://npmjs.com/package/super-tiny-hash-router) [![Build Status](https://img.shields.io/circleci/project/egoist/super-tiny-hash-router/master.svg?style=flat-square)](https://circleci.com/gh/egoist/super-tiny-hash-router)
 
-bite-sized front-end router.
+bite-sized (800 bytes) front-end router.
 
 ## Install
 
