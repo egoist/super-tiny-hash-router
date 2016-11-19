@@ -32,6 +32,8 @@ router.init()
 router.go('/user/egoist')
 ```
 
+**Note:** something like `/user/:name` is not supported for now.
+
 ## Middlewares
 
 ```js
