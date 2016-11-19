@@ -17,7 +17,8 @@ import createRouter from 'super-tiny-hash-router'
 
 const router = createRouter()
 
-router.add('/', () => {
+router.add('/', path => {
+  console.log(path) // eg: '/?foo=bar'
   renderHome()
 })
 
@@ -29,6 +30,20 @@ router.add('*', () => {
 router.init()
 
 router.go('/user/egoist')
+```
+
+## Middlewares
+
+```js
+// the built-in url-parse middleware
+import parseUrl from 'super-tiny-hash-router/parse-url'
+
+router.use(parseUrl)
+
+router.add('/', context => {
+  console.log(context)
+  //=> {params: {}, query: {}}
+})
 ```
 
 ## Contributing
