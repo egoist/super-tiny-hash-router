@@ -53,7 +53,7 @@ export default function (): Object {
       }
     },
     use(middleware) {
-      middlewares.push(middleware)
+      middlewares.push(middleware);
     }
   };
 
