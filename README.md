@@ -8,7 +8,7 @@ bite-sized front-end router.
 $ npm install --save super-tiny-hash-router
 ```
 
-CDN version: https://unpkd.com/super-tiny-hash-router/dist/
+CDN version: https://unpkg.com/super-tiny-hash-router/dist/
 
 ## Usage
 
